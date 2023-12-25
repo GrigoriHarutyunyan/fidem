@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>product_second_description</id>
+    <version>1.0</version>
+    <name>Product Second Description</name>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+
+    <queries>
+        <item for="install">
+            ALTER TABLE ?:product_descriptions ADD COLUMN  full_second_description MEDIUMTEXT NULL DEFAULT NULL AFTER full_description;
+        </item>
+
+        <item for="uninstall">
+            ALTER TABLE ?:product_descriptions DROP COLUMN full_second_description;
+        </item>
+    </queries>
+</addon>

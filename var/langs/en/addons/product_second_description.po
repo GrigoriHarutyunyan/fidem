@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::Product second description"
+msgid "product_second_description"
+msgstr "product_second_description"
+
+msgctxt "Addons::description::product_second_description"
+msgid "product_second_description"
+msgstr "Add second description to product"
+
+msgctxt "Languages::full_second_description"
+msgid "Full second description"
+msgstr "Product Second Description"
